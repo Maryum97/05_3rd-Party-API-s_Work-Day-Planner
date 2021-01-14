@@ -1,11 +1,22 @@
+// Storing tasks to local storage
+let hourlyTasks = {
+    "9": [],
+    "10": [],
+    "11": [],
+    "12": [],
+    "13": [],
+    "14": [],
+    "15": [],
+    "16": [],
+    "17": [] 
+}
+
 $(document).ready(function() {
 
     // Click save button and store to local storage
     $("#saveBtn").on("click", function() {
-        var value = $(this).siblings("text-entry").val();
-        var time = $(this).parent().attr("id");
 
-        localStorage.setItem(time, value);
+        localStorage.setItem("hourlyTasks", JSON.stringify(hourlyTasks));
     })
 
     // Update the time and time code of planner rows
@@ -35,7 +46,7 @@ $(document).ready(function() {
 
       hourUpdater();
 
-      
+
 
   })
 
