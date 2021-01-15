@@ -23,7 +23,7 @@ var calendarRow = $(".calendar-row");
 console.log(calendarRow);
 
 // Getting the document ready for jQuery
-// $(document).ready(function() {
+$(document).ready(function() {
 
 // Add event listener to saveBtn
   saveBtn.on("click", function() {
@@ -37,13 +37,10 @@ console.log(calendarRow);
   function trackTime() {
     // Get current hours and log
     var timeNow = moment().hour();
-    console.log(timeNow);
 
     // Loop over calandar rows to get block time
     calendarRow.each(function() {
       var blockTime = parseInt($(this).attr("id").split("hour")[1]);
-      console.log(blockTime);
-    })
 
       // Check time and set classes for background color indicators
       if (blockTime < timeNow) {
@@ -62,6 +59,9 @@ console.log(calendarRow);
           $(this).addClass("future");
 
       }
+      
+    })
+  }
 
       // Get item from local storage if any
       $("#hour9 .calendar-row").val(localStorage.getItem("hour9"));
@@ -74,18 +74,6 @@ console.log(calendarRow);
       $("#hour16 .calendar-row").val(localStorage.getItem("hour16"));
       $("#hour17 .calendar-row").val(localStorage.getItem("hour17"));
 
-      timeTracker();
+      trackTime();
 
-  }
-
-
-
-
-
-
-
-
-
-
-
-// })
+})
