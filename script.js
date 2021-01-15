@@ -18,3 +18,21 @@ console.log(textArea);
 
 var saveBtn = $(".saveBtn");
 console.log(saveBtn);
+
+// Getting the document ready for jQuery
+// $(document).ready(function() {
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// })
