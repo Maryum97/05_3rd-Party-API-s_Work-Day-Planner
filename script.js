@@ -19,11 +19,34 @@ console.log(textArea);
 var saveBtn = $(".saveBtn");
 console.log(saveBtn);
 
+var calendarRow = $(".calendar-row");
+console.log(calendarRow);
+
 // Getting the document ready for jQuery
 // $(document).ready(function() {
 
+// Add event listener to saveBtn
+  saveBtn.on("click", function() {
+    var taskText = $(this).siblings(textArea);
+    var time = $(this).parent().attr("id");
+
+    // Save to local storage
+    localStorage.setItem(time, taskText);
+  })
+
+  function trackTime() {
+    // Get current hours and log
+    var timeNow = moment().hour();
+    console.log(timeNow);
+
+    // Loop over calandar rows
+    calendarRow.each(function() {
+      var blockTime = parseInt($(this).attr("id").split("hour")[1]);
+      console.log(blockTime);
+    })
 
 
+  }
 
 
 
