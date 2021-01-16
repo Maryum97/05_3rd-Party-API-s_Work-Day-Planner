@@ -12,7 +12,7 @@ This one-page application has been created with the use of HTML, CSS, Bootstrap,
 2. Within that hour, fill out the text-area with the task that they wish to fulfil.
 3. Press the save-button.
 
-<b><i>Special Features:</i></b> 
+<b><i>Special Features:</i></b><br>
 What makes this application special is the following two features:
 
 1) The time-blocks are all represented as specific colours, depending on what time of the day it is; the blocks in grey show the blocks for the time that has <i>passed</i>, the red block shows the <i>present</i> time, and the blocks in green show the blocks for the time <i>yet to occur</i>. This makes it easier for the user to identify which tasks are to be prioritised most, with respect to time.
