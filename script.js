@@ -11,18 +11,9 @@ var now = new Date().getHours();
 
 
 
-// Getting functions ready
+// Getting function(s) ready
 window.onload = function() {
-  trackTime()
-  nineAM();
-  tenAM();
-  elevenAM();
-  twelvePM();
-  onePM();
-  twoPM();
-  threePM();
-  fourPM();
-  fivePM();
+  trackTime();
 }
 
 
@@ -143,119 +134,101 @@ window.onload = function() {
     }
 
   // Setting item to local storage for each text area, and getting from local storage
-  function nineAM() {
+  $(".saveBtn-1").on("click", function() {
     var input_textArea = $("text-area-1");
     var output_textDiv = $("text-area-1");
 
-    $(".saveBtn-1").on("click", function() {
-      localStorage.setItem("9AM", input_textArea.value);
-      output_textDiv.textContent = input_textArea.value;
-    })
+    localStorage.setItem("9AM", input_textArea.value);
+    output_textDiv.textContent = input_textArea.value;
 
     output_textDiv.textContent = localStorage.getItem("9AM");
     input_textArea.value = localStorage.getItem("9AM");
-  }
+  })
 
-  function tenAM() {
+  $(".saveBtn-2").on("click", function() {
     var input_textArea = $("text-area-2");
     var output_textDiv = $("text-area-2");
 
-    $(".saveBtn-2").on("click", function() {
-      localStorage.setItem("10AM", input_textArea.value);
-      output_textDiv.textContent = input_textArea.value;
-    })
+    localStorage.setItem("10AM", input_textArea.value);
+    output_textDiv.textContent = input_textArea.value;
 
     output_textDiv.textContent = localStorage.getItem("10AM");
     input_textArea.value = localStorage.getItem("10AM");
-  }
+  })
 
-  function elevenAM() {
+  $(".saveBtn-3").on("click", function() {
     var input_textArea = $("text-area-3");
     var output_textDiv = $("text-area-3");
 
-    $(".saveBtn-3").on("click", function() {
-      localStorage.setItem("11AM", input_textArea.value);
-      output_textDiv.textContent = input_textArea.value;
-    })
-
+    localStorage.setItem("11AM", input_textArea.value);
+    output_textDiv.textContent = input_textArea.value;
+  
     output_textDiv.textContent = localStorage.getItem("11AM");
     input_textArea.value = localStorage.getItem("11AM");
-  }
+  })
 
-  function twelvePM() {
+  $(".saveBtn-4").on("click", function() {
     var input_textArea = $("text-area-4");
     var output_textDiv = $("text-area-4");
 
-    $(".saveBtn-4").on("click", function() {
-      localStorage.setItem("12PM", input_textArea.value);
-      output_textDiv.textContent = input_textArea.value;
-    })
+    localStorage.setItem("12PM", input_textArea.value);
+    output_textDiv.textContent = input_textArea.value;
 
     output_textDiv.textContent = localStorage.getItem("12PM");
     input_textArea.value = localStorage.getItem("12PM");
-  }
+  })
 
-  function onePM() {
+  $(".saveBtn-5").on("click", function() {
     var input_textArea = $("text-area-5");
     var output_textDiv = $("text-area-5");
 
-    $(".saveBtn-5").on("click", function() {
-      localStorage.setItem("1PM", input_textArea.value);
-      output_textDiv.textContent = input_textArea.value;
-    })
+    localStorage.setItem("1PM", input_textArea.value);
+    output_textDiv.textContent = input_textArea.value;
 
     output_textDiv.textContent = localStorage.getItem("1PM");
     input_textArea.value = localStorage.getItem("1PM");
-  }
+  })
 
-  function twoPM() {
+  $(".saveBtn-6").on("click", function() {
     var input_textArea = $("text-area-6");
     var output_textDiv = $("text-area-6");
 
-    $(".saveBtn-6").on("click", function() {
-      localStorage.setItem("2PM", input_textArea.value);
-      output_textDiv.textContent = input_textArea.value;
-    })
+    localStorage.setItem("2PM", input_textArea.value);
+    output_textDiv.textContent = input_textArea.value;
 
     output_textDiv.textContent = localStorage.getItem("2PM");
     input_textArea.value = localStorage.getItem("2PM");
-  }
+  })
 
-  function threePM() {
+  $(".saveBtn-7").on("click", function() {
     var input_textArea = $("text-area-7");
     var output_textDiv = $("text-area-7");
 
-    $(".saveBtn-7").on("click", function() {
-      localStorage.setItem("3PM", input_textArea.value);
-      output_textDiv.textContent = input_textArea.value;
-    })
+    localStorage.setItem("3PM", input_textArea.value);
+    output_textDiv.textContent = input_textArea.value;
 
     output_textDiv.textContent = localStorage.getItem("3PM");
     input_textArea.value = localStorage.getItem("3PM");
-  }
+  })
 
-  function fourPM() {
+  $(".saveBtn-8").on("click", function() {
     var input_textArea = $("text-area-8");
     var output_textDiv = $("text-area-8");
-
-    $(".saveBtn-8").on("click", function() {
-      localStorage.setItem("4PM", input_textArea.value);
-      output_textDiv.textContent = input_textArea.value;
-    })
+    
+    localStorage.setItem("4PM", input_textArea.value);
+    output_textDiv.textContent = input_textArea.value;
 
     output_textDiv.textContent = localStorage.getItem("4PM");
     input_textArea.value = localStorage.getItem("4PM");
-  }
+  })
 
-  function fivePM() {
+  $(".saveBtn-9").on("click", function() {
     var input_textArea = $("text-area-9");
     var output_textDiv = $("text-area-9");
 
-    $(".saveBtn-9").on("click", function() {
-      localStorage.setItem("5PM", input_textArea.value);
-      output_textDiv.textContent = input_textArea.value;
-    })
+    localStorage.setItem("5PM", input_textArea.value);
+    output_textDiv.textContent = input_textArea.value;
 
     output_textDiv.textContent = localStorage.getItem("5PM");
     input_textArea.value = localStorage.getItem("5PM");
-  }
+  })
