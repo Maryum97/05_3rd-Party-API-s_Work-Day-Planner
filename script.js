@@ -9,9 +9,20 @@ $("#current-time").append(currentTime);
 
 var now = new Date().getHours();
 
+
+
 // Getting functions ready
 window.onload = function() {
   trackTime()
+  nineAM();
+  tenAM();
+  elevenAM();
+  twelvePM();
+  onePM();
+  twoPM();
+  threePM();
+  fourPM();
+  fivePM();
 }
 
 
@@ -19,20 +30,9 @@ window.onload = function() {
   var hourId = $(".hour");
   console.log(hourId);
 
-  var saveBtn = $(".saveBtn");
-  console.log(saveBtn);
-
   var calendarRow = $(".calendar-row");
   console.log(calendarRow);
 
-// Add event listener to saveBtn
-  saveBtn.on("click", function() {
-    var taskText = $(this).siblings(".text-area").val();
-    var time = $(this).parent().attr("id");
-
-    // Save to local storage
-    localStorage.setItem(time, taskText);
-  })
 
   // Setting the classes for each time block on the scheduler
   function trackTime() {
@@ -41,6 +41,7 @@ window.onload = function() {
     var timeNow = moment().hour();
 
       // Check if time NOW matches time of time-block, and assign classes for background color indicators
+      // 9am
       if (timeNow > 9) {
         $(".text-area-1").addClass("past");
       }
@@ -51,6 +52,7 @@ window.onload = function() {
         $(".text-area-1").addClass("future");
       }
 
+      // 10am
       if (timeNow > 10) {
         $(".text-area-2").addClass("past");
       }
@@ -61,6 +63,7 @@ window.onload = function() {
         $(".text-area-2").addClass("future");
       }
 
+      // 11am
       if (timeNow > 11) {
         $(".text-area-3").addClass("past");
       }
@@ -71,6 +74,7 @@ window.onload = function() {
         $(".text-area-3").addClass("future");
       }
 
+      // 12pm
       if (timeNow > 12) {
         $(".text-area-4").addClass("past");
       }
@@ -81,6 +85,7 @@ window.onload = function() {
         $(".text-area-4").addClass("future");
       }
 
+      // 1pm
       if (timeNow > 13) {
         $(".text-area-5").addClass("past");
       }
@@ -91,6 +96,7 @@ window.onload = function() {
         $(".text-area-5").addClass("future");
       }
 
+      // 2pm
       if (timeNow > 14) {
         $(".text-area-6").addClass("past");
       }
@@ -101,6 +107,7 @@ window.onload = function() {
         $(".text-area-6").addClass("future");
       }
 
+      // 3pm
       if (timeNow > 15) {
         $(".text-area-7").addClass("past");
       }
@@ -111,6 +118,7 @@ window.onload = function() {
         $(".text-area-7").addClass("future");
       }
 
+      // 4pm
       if (timeNow > 16) {
         $(".text-area-8").addClass("past");
       }
@@ -121,6 +129,7 @@ window.onload = function() {
         $(".text-area-8").addClass("future");
       }
 
+      // 5pm
       if (timeNow > 17) {
         $(".text-area-9").addClass("past");
       }
@@ -132,17 +141,121 @@ window.onload = function() {
       }
       
     }
-  
 
-      // Get item from local storage if any
-      $("#hour9 .calendar-row").val(localStorage.getItem("hour9"));
-      $("#hour10 .calendar-row").val(localStorage.getItem("hour10"));
-      $("#hour11 .calendar-row").val(localStorage.getItem("hour11"));
-      $("#hour12 .calendar-row").val(localStorage.getItem("hour12"));
-      $("#hour13 .calendar-row").val(localStorage.getItem("hour13"));
-      $("#hour14 .calendar-row").val(localStorage.getItem("hour14"));
-      $("#hour15 .calendar-row").val(localStorage.getItem("hour15"));
-      $("#hour16 .calendar-row").val(localStorage.getItem("hour16"));
-      $("#hour17 .calendar-row").val(localStorage.getItem("hour17"));
+  // Setting item to local storage for each text area, and getting from local storage
+  function nineAM() {
+    var input_textArea = $("text-area-1");
+    var output_textDiv = $("text-area-1");
 
-      trackTime();
+    $(".saveBtn-1").on("click", function() {
+      localStorage.setItem("content", input_textArea.value);
+      output_textDiv.textContent = input_textArea.value;
+    })
+
+    output_textDiv.textContent = localStorage.getItem("content");
+    input_textArea.value = localStorage.getItem("content");
+  }
+
+  function tenAM() {
+    var input_textArea = $("text-area-2");
+    var output_textDiv = $("text-area-2");
+
+    $(".saveBtn-2").on("click", function() {
+      localStorage.setItem("content", input_textArea.value);
+      output_textDiv.textContent = input_textArea.value;
+    })
+
+    output_textDiv.textContent = localStorage.getItem("content");
+    input_textArea.value = localStorage.getItem("content");
+  }
+
+  function elevenAM() {
+    var input_textArea = $("text-area-3");
+    var output_textDiv = $("text-area-3");
+
+    $(".saveBtn-3").on("click", function() {
+      localStorage.setItem("content", input_textArea.value);
+      output_textDiv.textContent = input_textArea.value;
+    })
+
+    output_textDiv.textContent = localStorage.getItem("content");
+    input_textArea.value = localStorage.getItem("content");
+  }
+
+  function twelvePM() {
+    var input_textArea = $("text-area-4");
+    var output_textDiv = $("text-area-4");
+
+    $(".saveBtn-4").on("click", function() {
+      localStorage.setItem("content", input_textArea.value);
+      output_textDiv.textContent = input_textArea.value;
+    })
+
+    output_textDiv.textContent = localStorage.getItem("content");
+    input_textArea.value = localStorage.getItem("content");
+  }
+
+  function onePM() {
+    var input_textArea = $("text-area-5");
+    var output_textDiv = $("text-area-5");
+
+    $(".saveBtn-5").on("click", function() {
+      localStorage.setItem("content", input_textArea.value);
+      output_textDiv.textContent = input_textArea.value;
+    })
+
+    output_textDiv.textContent = localStorage.getItem("content");
+    input_textArea.value = localStorage.getItem("content");
+  }
+
+  function twoPM() {
+    var input_textArea = $("text-area-6");
+    var output_textDiv = $("text-area-6");
+
+    $(".saveBtn-6").on("click", function() {
+      localStorage.setItem("content", input_textArea.value);
+      output_textDiv.textContent = input_textArea.value;
+    })
+
+    output_textDiv.textContent = localStorage.getItem("content");
+    input_textArea.value = localStorage.getItem("content");
+  }
+
+  function threePM() {
+    var input_textArea = $("text-area-7");
+    var output_textDiv = $("text-area-7");
+
+    $(".saveBtn-7").on("click", function() {
+      localStorage.setItem("content", input_textArea.value);
+      output_textDiv.textContent = input_textArea.value;
+    })
+
+    output_textDiv.textContent = localStorage.getItem("content");
+    input_textArea.value = localStorage.getItem("content");
+  }
+
+  function fourPM() {
+    var input_textArea = $("text-area-8");
+    var output_textDiv = $("text-area-8");
+
+    $(".saveBtn-8").on("click", function() {
+      localStorage.setItem("content", input_textArea.value);
+      output_textDiv.textContent = input_textArea.value;
+    })
+
+    output_textDiv.textContent = localStorage.getItem("content");
+    input_textArea.value = localStorage.getItem("content");
+  }
+
+  function fivePM() {
+    var input_textArea = $("text-area-9");
+    var output_textDiv = $("text-area-9");
+
+    $(".saveBtn-9").on("click", function() {
+      localStorage.setItem("content", input_textArea.value);
+      output_textDiv.textContent = input_textArea.value;
+    })
+
+    output_textDiv.textContent = localStorage.getItem("content");
+    input_textArea.value = localStorage.getItem("content");
+  }
