@@ -138,8 +138,8 @@ window.onload = function() {
     var input_textArea = $(".text-area-1");
     var output_textDiv = $(".text-area-1");
 
-    localStorage.setItem("9AM", input_textArea.value);
-    output_textDiv.textContent = input_textArea.value;
+    localStorage.setItem("9AM", input_textArea.val());
+    output_textDiv.textContent = input_textArea.val()
 
     output_textDiv.textContent = localStorage.getItem("9AM");
     input_textArea.value = localStorage.getItem("9AM");
@@ -149,8 +149,8 @@ window.onload = function() {
     var input_textArea = $(".text-area-2");
     var output_textDiv = $(".text-area-2");
 
-    localStorage.setItem("10AM", input_textArea.value);
-    output_textDiv.textContent = input_textArea.value;
+    localStorage.setItem("10AM", input_textArea.val());
+    output_textDiv.textContent = input_textArea.val();
 
     output_textDiv.textContent = localStorage.getItem("10AM");
     input_textArea.value = localStorage.getItem("10AM");
@@ -160,8 +160,8 @@ window.onload = function() {
     var input_textArea = $(".text-area-3");
     var output_textDiv = $(".text-area-3");
 
-    localStorage.setItem("11AM", input_textArea.value);
-    output_textDiv.textContent = input_textArea.value;
+    localStorage.setItem("11AM", input_textArea.val());
+    output_textDiv.textContent = input_textArea.val();
   
     output_textDiv.textContent = localStorage.getItem("11AM");
     input_textArea.value = localStorage.getItem("11AM");
@@ -171,8 +171,8 @@ window.onload = function() {
     var input_textArea = $(".text-area-4");
     var output_textDiv = $(".text-area-4");
 
-    localStorage.setItem("12PM", input_textArea.value);
-    output_textDiv.textContent = input_textArea.value;
+    localStorage.setItem("12PM", input_textArea.val());
+    output_textDiv.textContent = input_textArea.val();
 
     output_textDiv.textContent = localStorage.getItem("12PM");
     input_textArea.value = localStorage.getItem("12PM");
@@ -182,8 +182,8 @@ window.onload = function() {
     var input_textArea = $(".text-area-5");
     var output_textDiv = $(".text-area-5");
 
-    localStorage.setItem("1PM", input_textArea.value);
-    output_textDiv.textContent = input_textArea.value;
+    localStorage.setItem("1PM", input_textArea.val());
+    output_textDiv.textContent = input_textArea.val();
 
     output_textDiv.textContent = localStorage.getItem("1PM");
     input_textArea.value = localStorage.getItem("1PM");
@@ -193,8 +193,8 @@ window.onload = function() {
     var input_textArea = $(".text-area-6");
     var output_textDiv = $(".text-area-6");
 
-    localStorage.setItem("2PM", input_textArea.value);
-    output_textDiv.textContent = input_textArea.value;
+    localStorage.setItem("2PM", input_textArea.val());
+    output_textDiv.textContent = input_textArea.val();
 
     output_textDiv.textContent = localStorage.getItem("2PM");
     input_textArea.value = localStorage.getItem("2PM");
@@ -204,8 +204,8 @@ window.onload = function() {
     var input_textArea = $(".text-area-7");
     var output_textDiv = $(".text-area-7");
 
-    localStorage.setItem("3PM", input_textArea.value);
-    output_textDiv.textContent = input_textArea.value;
+    localStorage.setItem("3PM", input_textArea.val());
+    output_textDiv.textContent = input_textArea.val();
 
     output_textDiv.textContent = localStorage.getItem("3PM");
     input_textArea.value = localStorage.getItem("3PM");
@@ -215,8 +215,8 @@ window.onload = function() {
     var input_textArea = $(".text-area-8");
     var output_textDiv = $(".text-area-8");
     
-    localStorage.setItem("4PM", input_textArea.value);
-    output_textDiv.textContent = input_textArea.value;
+    localStorage.setItem("4PM", input_textArea.val());
+    output_textDiv.textContent = input_textArea.val();
 
     output_textDiv.textContent = localStorage.getItem("4PM");
     input_textArea.value = localStorage.getItem("4PM");
@@ -226,8 +226,8 @@ window.onload = function() {
     var input_textArea = $(".text-area-9");
     var output_textDiv = $(".text-area-9");
 
-    localStorage.setItem("5PM", input_textArea.value);
-    output_textDiv.textContent = input_textArea.value;
+    localStorage.setItem("5PM", input_textArea.val());
+    output_textDiv.textContent = input_textArea.val();
 
     output_textDiv.textContent = localStorage.getItem("5PM");
     input_textArea.value = localStorage.getItem("5PM");
