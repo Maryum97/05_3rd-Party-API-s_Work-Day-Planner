@@ -27,7 +27,7 @@ window.onload = function() {
 
 // Add event listener to saveBtn
   saveBtn.on("click", function() {
-    var taskText = $(this).siblings(textArea).val();
+    var taskText = $(this).siblings(".text-area").val();
     var time = $(this).parent().attr("id");
 
     // Save to local storage
