@@ -148,12 +148,12 @@ window.onload = function() {
     var output_textDiv = $("text-area-1");
 
     $(".saveBtn-1").on("click", function() {
-      localStorage.setItem("content", input_textArea.value);
+      localStorage.setItem("9AM", input_textArea.value);
       output_textDiv.textContent = input_textArea.value;
     })
 
-    output_textDiv.textContent = localStorage.getItem("content");
-    input_textArea.value = localStorage.getItem("content");
+    output_textDiv.textContent = localStorage.getItem("9AM");
+    input_textArea.value = localStorage.getItem("9AM");
   }
 
   function tenAM() {
@@ -161,12 +161,12 @@ window.onload = function() {
     var output_textDiv = $("text-area-2");
 
     $(".saveBtn-2").on("click", function() {
-      localStorage.setItem("content", input_textArea.value);
+      localStorage.setItem("10AM", input_textArea.value);
       output_textDiv.textContent = input_textArea.value;
     })
 
-    output_textDiv.textContent = localStorage.getItem("content");
-    input_textArea.value = localStorage.getItem("content");
+    output_textDiv.textContent = localStorage.getItem("10AM");
+    input_textArea.value = localStorage.getItem("10AM");
   }
 
   function elevenAM() {
@@ -174,12 +174,12 @@ window.onload = function() {
     var output_textDiv = $("text-area-3");
 
     $(".saveBtn-3").on("click", function() {
-      localStorage.setItem("content", input_textArea.value);
+      localStorage.setItem("11AM", input_textArea.value);
       output_textDiv.textContent = input_textArea.value;
     })
 
-    output_textDiv.textContent = localStorage.getItem("content");
-    input_textArea.value = localStorage.getItem("content");
+    output_textDiv.textContent = localStorage.getItem("11AM");
+    input_textArea.value = localStorage.getItem("11AM");
   }
 
   function twelvePM() {
@@ -187,12 +187,12 @@ window.onload = function() {
     var output_textDiv = $("text-area-4");
 
     $(".saveBtn-4").on("click", function() {
-      localStorage.setItem("content", input_textArea.value);
+      localStorage.setItem("12PM", input_textArea.value);
       output_textDiv.textContent = input_textArea.value;
     })
 
-    output_textDiv.textContent = localStorage.getItem("content");
-    input_textArea.value = localStorage.getItem("content");
+    output_textDiv.textContent = localStorage.getItem("12PM");
+    input_textArea.value = localStorage.getItem("12PM");
   }
 
   function onePM() {
@@ -200,12 +200,12 @@ window.onload = function() {
     var output_textDiv = $("text-area-5");
 
     $(".saveBtn-5").on("click", function() {
-      localStorage.setItem("content", input_textArea.value);
+      localStorage.setItem("1PM", input_textArea.value);
       output_textDiv.textContent = input_textArea.value;
     })
 
-    output_textDiv.textContent = localStorage.getItem("content");
-    input_textArea.value = localStorage.getItem("content");
+    output_textDiv.textContent = localStorage.getItem("1PM");
+    input_textArea.value = localStorage.getItem("1PM");
   }
 
   function twoPM() {
@@ -213,12 +213,12 @@ window.onload = function() {
     var output_textDiv = $("text-area-6");
 
     $(".saveBtn-6").on("click", function() {
-      localStorage.setItem("content", input_textArea.value);
+      localStorage.setItem("2PM", input_textArea.value);
       output_textDiv.textContent = input_textArea.value;
     })
 
-    output_textDiv.textContent = localStorage.getItem("content");
-    input_textArea.value = localStorage.getItem("content");
+    output_textDiv.textContent = localStorage.getItem("2PM");
+    input_textArea.value = localStorage.getItem("2PM");
   }
 
   function threePM() {
@@ -226,12 +226,12 @@ window.onload = function() {
     var output_textDiv = $("text-area-7");
 
     $(".saveBtn-7").on("click", function() {
-      localStorage.setItem("content", input_textArea.value);
+      localStorage.setItem("3PM", input_textArea.value);
       output_textDiv.textContent = input_textArea.value;
     })
 
-    output_textDiv.textContent = localStorage.getItem("content");
-    input_textArea.value = localStorage.getItem("content");
+    output_textDiv.textContent = localStorage.getItem("3PM");
+    input_textArea.value = localStorage.getItem("3PM");
   }
 
   function fourPM() {
@@ -239,12 +239,12 @@ window.onload = function() {
     var output_textDiv = $("text-area-8");
 
     $(".saveBtn-8").on("click", function() {
-      localStorage.setItem("content", input_textArea.value);
+      localStorage.setItem("4PM", input_textArea.value);
       output_textDiv.textContent = input_textArea.value;
     })
 
-    output_textDiv.textContent = localStorage.getItem("content");
-    input_textArea.value = localStorage.getItem("content");
+    output_textDiv.textContent = localStorage.getItem("4PM");
+    input_textArea.value = localStorage.getItem("4PM");
   }
 
   function fivePM() {
@@ -252,10 +252,10 @@ window.onload = function() {
     var output_textDiv = $("text-area-9");
 
     $(".saveBtn-9").on("click", function() {
-      localStorage.setItem("content", input_textArea.value);
+      localStorage.setItem("5PM", input_textArea.value);
       output_textDiv.textContent = input_textArea.value;
     })
 
-    output_textDiv.textContent = localStorage.getItem("content");
-    input_textArea.value = localStorage.getItem("content");
+    output_textDiv.textContent = localStorage.getItem("5PM");
+    input_textArea.value = localStorage.getItem("5PM");
   }
