@@ -1,5 +1,5 @@
 // Display current date and time in the header or the navbar
-var currentDate = moment().format("dddd LL");
+var currentDate = moment().format("dddd, LL");
 console.log(currentDate);
 $("#current-date").append(currentDate);
 
