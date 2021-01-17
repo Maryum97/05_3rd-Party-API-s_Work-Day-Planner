@@ -21,7 +21,13 @@ What makes this application special is the following two features:
 
 The image below represents the application more comprehensively:
 
-![Untitled](https://user-images.githubusercontent.com/73832871/104846803-49d5ee00-58d4-11eb-889d-64401763cdb1.png)
+![Untitled](https://user-images.githubusercontent.com/73832871/104847335-4db73f80-58d7-11eb-9e19-b3a2fa89bdca.png)
+
+<br>
+
+The image below represents the tasks saved in the local storage:
+
+![Annotation 2021-01-17 151740](https://user-images.githubusercontent.com/73832871/104847336-4ee86c80-58d7-11eb-986b-c7de18a61c20.png)
 
 <b>SUMMARY:</b><br>
 In a nutshell, this app makes for a simple yet effective means to organise and punctualise an office employee to fulfil their tasks and manage their time in a professional manner, all made possible by tbe help of jQuery as the interactive language between the user and the webpage. As per the marking requirement, the link to the deployed webpage has been provided below:
