@@ -7,13 +7,13 @@
 
 /* Set the colour of the calendar row(s) who's time < current time */
 .past {
-    background-color: #d3d3d34d;
-    color: white;
+    background-color: #d3d3d3b4;
+    color: rgb(129, 128, 128);
 }
 
 /* Set the colour of the calendar row who's time = current time */
 .present {
-    background-color: #ce1107;
+    background-color: #df180d;
     color: white;
 }
 
