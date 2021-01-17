@@ -8,17 +8,17 @@
 /* Set the colour of the calendar row(s) who's time < current time */
 .past {
     background-color: #d3d3d3ad;
-    color: white;
+    color: black;
 }
 
 /* Set the colour of the calendar row who's time = current time */
 .present {
     background-color: #f8362c;
-    color: white;
+    color: black;
 }
 
 /* Set the colour of the calendar row(s) who's time > current time */
 .future {
     background-color: #45f045;
-    color: white;
+    color: black;
 }
