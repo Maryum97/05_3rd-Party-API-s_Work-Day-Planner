@@ -28,4 +28,4 @@ In a nutshell, this app makes for a simple yet effective means to organise and p
 
 The webpage was validated using the following website:
 
-<a herf="https://validator.w3.org/nu/?showsource=yes&showoutline=yes&showimagereport=yes&doc=https%3A%2F%2Fmaryum97.github.io%2F05_3rd-Party-API-s_Work-Day-Scheduler%2F">validator.w3.org</a>
+<a href="https://validator.w3.org/nu/?showsource=yes&showoutline=yes&showimagereport=yes&doc=https%3A%2F%2Fmaryum97.github.io%2F05_3rd-Party-API-s_Work-Day-Scheduler%2F" target="_blank">validator.w3.org</a>
