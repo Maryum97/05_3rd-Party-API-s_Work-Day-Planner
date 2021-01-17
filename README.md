@@ -40,5 +40,5 @@ The webpage was validated using the following website:
 
 <b>SOURCES:</b>
 
-1. <a href="https://www.w3schools.com/" target="_blank">www.w3schools.com/</a>
-2. <a href="https://stackoverflow.com/" target="_blank">stackoverflow.com/</a>
+1. <a href="https://www.w3schools.com/" target="_blank">www.w3schools.com</a>
+2. <a href="https://stackoverflow.com/" target="_blank">stackoverflow.com</a>
