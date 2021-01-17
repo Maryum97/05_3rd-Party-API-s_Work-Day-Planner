@@ -21,8 +21,6 @@ What makes this application special is the following two features:
 
 The image below represents the application more comprehensively:
 
-
-
 <b>SUMMARY:</b><br>
 In a nutshell, this app makes for a simple yet effective means to organise and punctualise an office employee to fulfil their tasks and manage their time in a professional manner, all made possible by tbe help of jQuery as the interactive language between the user and the webpage. As per the marking requirement, the link to the deployed webpage has been provided below:
 
