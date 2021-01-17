@@ -24,4 +24,8 @@ The image below represents the application more comprehensively:
 <b>SUMMARY:</b><br>
 In a nutshell, this app makes for a simple yet effective means to organise and punctualise an office employee to fulfil their tasks and manage their time in a professional manner, all made possible by tbe help of jQuery as the interactive language between the user and the webpage. As per the marking requirement, the link to the deployed webpage has been provided below:
 
+<a href="https://maryum97.github.io/05_3rd-Party-API-s_Work-Day-Scheduler/" target="_blank">My Work Day Scheduler</a>
+
 The webpage was validated using the following website:
+
+<a herf="https://validator.w3.org/nu/?showsource=yes&showoutline=yes&showimagereport=yes&doc=https%3A%2F%2Fmaryum97.github.io%2F05_3rd-Party-API-s_Work-Day-Scheduler%2F">validator.w3.org</a>
